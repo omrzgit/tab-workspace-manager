@@ -1,7 +1,7 @@
 # Tab Workspace Manager
 
 Browser Session & Tab Workspace Manager â€” Chrome Extension (Manifest V3),
-vanilla JavaScript, zero runtime dependencies.
+vanilla JavaScript, zero runtime dependencies. beta testing, some features and fixes are pending.
 
 ## Layout
 
