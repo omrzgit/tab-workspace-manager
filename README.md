@@ -1,17 +1,17 @@
 # Tab Workspace Manager
 
-Browser Session & Tab Workspace Manager â€” Chrome Extension (Manifest V3),
+Browser Session & Tab Workspace Manager  Chrome Extension (Manifest V3),
 vanilla JavaScript, zero runtime dependencies. beta testing, some features and fixes are pending.
 
 ## Layout
 
-- `src/shared/`     â€” pure logic: constants, sanitization, schemas, message bus contracts
-- `src/storage/`    â€” Storage Abstraction Layer (partitioned sync store + repository)
-- `src/platform/`   â€” Native Platform Boundary (tabs/windows primitives)
-- `src/cloud/`      â€” External Cloud Integration Layer (Drive REST contract)
-- `src/background/` â€” MV3 service worker: context menus, auto-save on close, backup queue
-- `src/popup/`      â€” toolbar UI: state machine, controller, view modules
-- `tests/`          â€” Node built-in test runner unit tests
+- `src/shared/`      pure logic: constants, sanitization, schemas, message bus contracts
+- `src/storage/`     Storage Abstraction Layer (partitioned sync store + repository)
+- `src/platform/`    Native Platform Boundary (tabs/windows primitives)
+- `src/cloud/`       External Cloud Integration Layer (Drive REST contract)
+- `src/background/`  MV3 service worker: context menus, auto-save on close, backup queue
+- `src/popup/`       toolbar UI: state machine, controller, view modules
+- `tests/`           Node built-in test runner unit tests
 
 ## Run tests
 
