@@ -1,0 +1,10 @@
+{
+  "name": "tab-workspace-manager",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Browser Session & Tab Workspace Manager (Chrome MV3)",
+  "scripts": {
+    "test": "node --test"
+  }
+}

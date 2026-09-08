@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tab Workspace Manager</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header class="app-header">
+    <h1>Workspaces</h1>
+    <div id="header-search" class="header-search">
+      <input
+        id="search-input"
+        type="search"
+        placeholder="Filter workspaces and links..."
+        autocomplete="off"
+      />
+      <button id="settings-button" class="btn icon-btn" type="button" title="Settings" aria-label="Settings">⚙</button>
+    </div>
+    <button id="add-group-button" class="btn primary" type="button" title="Capture current session">+ Add Group</button>
+  </header>
+  <main id="view-root" aria-live="polite"></main>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
